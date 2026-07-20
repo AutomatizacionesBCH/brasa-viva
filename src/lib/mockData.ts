@@ -69,7 +69,7 @@ export const products: Product[] = [
     description: 'Corte premium a las brasas, término a elección.',
     price: 12990,
     category: 'Parrilla',
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400&q=80',
     popular: true,
   },
   {
@@ -94,7 +94,7 @@ export const products: Product[] = [
     description: 'Cocción lenta 4 h, barniz de miel-ají.',
     price: 10990,
     category: 'Parrilla',
-    image: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80',
   },
   {
     id: 'p5',
@@ -110,7 +110,7 @@ export const products: Product[] = [
     description: 'Vacuno, pollo y longaniza.',
     price: 6990,
     category: 'Parrilla',
-    image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1626323109252-0adb3b46692b?w=400&q=80',
     popular: true,
   },
   {
@@ -119,7 +119,7 @@ export const products: Product[] = [
     description: 'Con pebre cuchareado.',
     price: 4590,
     category: 'Parrilla',
-    image: 'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1598401863352-3de5501f4890?w=400&q=80',
   },
   {
     id: 'p8',
