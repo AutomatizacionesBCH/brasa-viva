@@ -6,12 +6,12 @@ import { restaurants as initialRestaurants, Restaurant, RestaurantPlan, formatCL
 const planColor: Record<RestaurantPlan, string> = {
   Básico: 'text-[#9B8D80] bg-[#35302B] border-[#4A4139]',
   Pro: 'text-brasa-light bg-brasa/10 border-brasa/30',
-  Enterprise: 'text-dorado bg-dorado/10 border-dorado/30',
+  Enterprise: 'text-dorado-light bg-dorado/10 border-dorado/30',
 };
 const statusColor: Record<string, string> = {
   activo: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/30',
   inactivo: 'text-red-400 bg-red-500/10 border-red-500/30',
-  prueba: 'text-dorado bg-dorado/10 border-dorado/30',
+  prueba: 'text-dorado-light bg-dorado/10 border-dorado/30',
 };
 const planPrice: Record<RestaurantPlan, number> = {
   Básico: 49000,

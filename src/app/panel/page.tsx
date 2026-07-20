@@ -11,7 +11,7 @@ const statusLabel: Record<string, string> = {
   entregado: 'Entregado',
 };
 const statusColor: Record<string, string> = {
-  nuevo: 'text-dorado bg-dorado/10',
+  nuevo: 'text-dorado-light bg-dorado/10',
   preparando: 'text-brasa-light bg-brasa/10',
   listo: 'text-sky-400 bg-sky-500/10',
   en_camino: 'text-brasa-light bg-brasa-light/10',

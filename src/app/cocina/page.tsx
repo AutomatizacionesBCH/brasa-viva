@@ -5,7 +5,7 @@ import { useStore } from '@/lib/store';
 import { Order, OrderStatus, formatCLP } from '@/lib/mockData';
 
 const columns: { status: OrderStatus; label: string; color: string; bg: string; border: string }[] = [
-  { status: 'nuevo', label: 'Nuevos', color: 'text-dorado', bg: 'bg-dorado/10', border: 'border-dorado/30' },
+  { status: 'nuevo', label: 'Nuevos', color: 'text-dorado-light', bg: 'bg-dorado/10', border: 'border-dorado/30' },
   { status: 'preparando', label: 'En preparación', color: 'text-brasa-light', bg: 'bg-brasa/10', border: 'border-brasa/30' },
   { status: 'listo', label: 'Listos', color: 'text-sky-400', bg: 'bg-sky-500/10', border: 'border-sky-500/30' },
 ];

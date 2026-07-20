@@ -19,7 +19,7 @@ function makeOrder(overrides: Partial<Order> = {}): Order {
     total: 15990,
     address: 'Calle de Prueba 123',
     customer: 'Cliente de Prueba',
-    phone: '+56 9 0000 0000',
+    phone: '+56 9 5555 0999',
     createdAt: new Date(),
     ...overrides,
   };

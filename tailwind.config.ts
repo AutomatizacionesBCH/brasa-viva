@@ -16,7 +16,7 @@ const config: Config = {
         brasa: { DEFAULT: '#EA580C', dark: '#C2410C', light: '#FB923C' }, // naranja brasa
         carbon: { DEFAULT: '#1C1917', soft: '#292524' },                   // carbón
         crema: '#FAF7F2',                                                  // fondo cálido
-        dorado: '#D97706',                                                 // acento
+        dorado: { DEFAULT: '#D97706', light: '#F59E0B' },                  // acento
       },
     },
   },

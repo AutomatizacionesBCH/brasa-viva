@@ -12,7 +12,7 @@ const driverStatusLabel: Record<string, string> = {
 const driverStatusColor: Record<string, string> = {
   disponible: 'text-emerald-400 bg-emerald-500/10 border-emerald-500/30',
   en_ruta: 'text-brasa-light bg-brasa/10 border-brasa/30',
-  volviendo: 'text-dorado bg-dorado/10 border-dorado/30',
+  volviendo: 'text-dorado-light bg-dorado/10 border-dorado/30',
 };
 
 const orderTrackSteps = ['Confirmado', 'En cocina', 'En camino', 'Entregado'];
@@ -163,8 +163,8 @@ export default function DeliveryPage() {
                 <line x1="450" y1="0" x2="450" y2="450" stroke="#2B2622" strokeWidth="4" />
 
                 {/* Road labels */}
-                <text x="290" y="220" fill="#4A4139" fontSize="9" textAnchor="end">Av. Providencia</text>
-                <text x="295" y="108" fill="#3A322C" fontSize="8">Los Leones</text>
+                <text x="290" y="220" fill="#4A4139" fontSize="9" textAnchor="end">Av. Los Aromos</text>
+                <text x="295" y="108" fill="#3A322C" fontSize="8">Los Canelos</text>
 
                 {/* Restaurant marker */}
                 <circle cx="300" cy="225" r="18" fill="#EA580C" fillOpacity="0.2" stroke="#EA580C" strokeWidth="2" />
