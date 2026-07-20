@@ -12,7 +12,7 @@ const statusLabel: Record<string, string> = {
 };
 const statusColor: Record<string, string> = {
   nuevo: 'text-dorado bg-dorado/10',
-  preparando: 'text-brasa bg-brasa/10',
+  preparando: 'text-brasa-light bg-brasa/10',
   listo: 'text-sky-400 bg-sky-500/10',
   en_camino: 'text-brasa-light bg-brasa-light/10',
   entregado: 'text-emerald-400 bg-emerald-500/10',
